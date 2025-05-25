@@ -226,7 +226,7 @@ uninstall_theme() {
   echo -e "${BLUE}[+]                    DELETE THEME                 [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
-  bash <(curl https://raw.githubusercontent.com/gitfdil1248/thema/main/repair.sh)
+  bash <(curl https://raw.githubusercontent.com/jarroffc/jarrOfficialL/repair.sh)
   echo -e "                                                       "
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
   echo -e "${GREEN}[+]                 DELETE THEME SUKSES             [+]${NC}"
@@ -245,7 +245,7 @@ echo -e "${BLUE}[+] =============================================== [+]${NC}"
 echo -e "                                                                   "
 
 # Unduh file tema
-wget -O /root/C2.zip https://github.com/jarroffc/jarrOfficialL/main/C2.zip
+wget -O /root/C2.zip https://github.com/jarroffc/jarrOfficialL/C2.zip
 
 # Ekstrak file tema
 unzip /root/C2.zip -d /root/pterodactyl
@@ -454,7 +454,7 @@ while true; do
   echo -e "${BLUE}',gg       ,ggg.      'ggg:                               ${NC}"
   echo -e "${BLUE}'ggg      ,gg'''  .    ggg       Auto Installer jarrOfficialL Private   ${NC}"
   echo -e "${BLUE}gggg      gg     ,     ggg      ------------------------  ${NC}"
-  echo -e "${BLUE}ggg:     gg.     -   ,ggg       • Telegram : t.me/jarrOfficialL     ${NC}"
+  echo -e "${BLUE}ggg:     gg.     -   ,ggg       • Telegram : t.me/jarroffc     ${NC}"
   echo -e "${BLUE} ggg:     ggg._    _,ggg        • Creadit  : jarrOfficialL ${NC}"
   echo -e "${BLUE} ggg.    '.'''ggggggp           • Support by jarrOfficialL  ${NC}"
   echo -e "${BLUE}  'ggg    '-.__                                           ${NC}"
